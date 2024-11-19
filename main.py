@@ -1,5 +1,6 @@
 from feature.tambah import tambah
 from feature.kurang import kurang
+from feature.vektor_unit import unit_vector
 def main():
     while True:
         print("\nOperasi pada vektor 2D")
