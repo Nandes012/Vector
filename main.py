@@ -1,6 +1,7 @@
 from feature.tambah import tambah
 from feature.kurang import kurang
 from feature.panjang import panjang
+from feature.vektor_unit import unit_vector
 
 def main():
     while True:
