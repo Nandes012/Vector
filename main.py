@@ -1,5 +1,7 @@
 from feature.tambah import tambah
 from feature.kurang import kurang
+from feature.panjang import panjang
+
 def main():
     while True:
         print("\nOperasi pada vektor 2D")
@@ -31,8 +33,8 @@ def main():
         elif pilihan == "3":
             print("Hasil Dot Product:", dot_product(vektor_a, vektor_b))
         elif pilihan == "4":
-            print("Panjang Vektor A:", panjang(vektor_a))
-            print("Panjang Vektor B:", panjang(vektor_b))
+            print("Panjang vektor a:", panjang (vektor_a))
+            print("Panjang vektor b:", panjang (vektor_b))
         elif pilihan == "5":
             print("Vektor Unit A:", unit_vector(vektor_a))
             print("Vektor Unit B:", unit_vector(vektor_b))
