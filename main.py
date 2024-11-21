@@ -2,6 +2,7 @@ from feature.tambah import tambah
 from feature.kurang import kurang
 from feature.panjang import panjang
 from feature.vektor_unit import unit_vector
+from feature.dot_product import dot_product
 
 def main():
     while True:
