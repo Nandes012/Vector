@@ -1,7 +1,7 @@
-import numpy as np
+from feature.panjang import panjang
 
-def unit_vector(v):
-    magnitude = np.linalg.norm(v)  # Panjang vektor
+def unit_vector(vektor):
+    magnitude = panjang(vektor)
     if magnitude == 0:
-        raise ValueError("Vektor nol tidak memiliki vektor satuan.")
-    return v / magnitude
+        raise ValueError("Vektor nol tidak memiliki vektor unit.")
+    return [comp / magnitude for comp in vektor]
