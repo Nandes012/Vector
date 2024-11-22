@@ -1,4 +1,5 @@
 from feature.panjang import panjang
+
 def unit_vector(vektor):
     magnitude = panjang(vektor)
     if magnitude == 0:
